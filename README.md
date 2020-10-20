@@ -28,7 +28,7 @@ Here's the syntax:
 
 ## Use the full slug
 
-I can use `{% link_to "the-prodigal-techbro" %}` to link to `/links/2020/10/12/the-prodigal-techbro/`.
+I can use `{% link_to "the-prodigal-techbro" %}` to link to [`/links/2020/10/12/the-prodigal-techbro/`](https://nicolas-hoizey.com/links/2020/10/12/the-prodigal-techbro/) (read it).
 
 ## Use the filePathStem
 
@@ -44,7 +44,7 @@ For example, I can link to the second note I wrote on 27th March 2020 with `{% l
 
 You can use a fragment of the content's slug (or pathStem, or URL) if you know that there is no ambiguity with another content.
 
-For example, I can use `{% link_to "/eleventy/" %}` because I know the only content on my site with a slug containing `/eleventy/` is the page of the Eleventy tag, which URL is `/tags/eleventy/`.
+For example, I can use `{% link_to "/eleventy/" %}` because I know the only content on my site with a slug containing `/eleventy/` is [the page of the Eleventy tag](https://nicolas-hoizey.com/tags/eleventy/), which URL is `/tags/eleventy/`.
 
 **⚠ Be carreful, if an article with the title `Eleventy` is added later, this link will break!**
 
