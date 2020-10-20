@@ -23,7 +23,7 @@ This plugin adds a Nunjucks tag you can use both in Nunjucks layouts and in Mark
 Here's the syntax:
 
 ```nunjucks
-{% link_to "the-prodigal-techbro" %}
+{% link_to "…" %}
 ```
 
 ## Use the full slug
