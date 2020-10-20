@@ -46,19 +46,21 @@ You can use `{% link_to "new-plugin" %}` to link to `/posts/2020/10/20/new-plugi
 
 _ℹ️ In Eleventy, [filePathStem](https://www.11ty.dev/docs/data-eleventy-supplied/#filepathstem) is "mapped from inputPath and is useful if you’ve inherited a project that doesn’t use clean permalinks."_
 
-There are two content with the same `hello` slug.
+There are two content with the same `hello` slug, so you can't use `{% link_to "hello" %}`.
 
-You can use `{% link_to "/notes/2019/03/10/hello" %}`.
+You can use `{% link_to "/notes/2019/03/10/hello" %}` instead.
 
 ## Use the URL
 
-You can also use `{% link_to "/notes/2019/03/10/hello/" %}`, if you kept Eleventy's default permalinks.
+You can also use `{% link_to "/notes/2019/03/10/hello/" %}`, if you use Eleventy's default permalinks.
 
 ## Use only a fragment or a slug/pathStem/URL
 
 You can also use just a fragment of the content's slug (or pathStem, or URL) if you know that there is no ambiguity with another content.
 
 You can for example use `{% link_to "2020/09/22" %}` because there is only one content with a slug containing `2020/09/22`.
+
+---
 
 On [my site](https://nicolas-hoizey.com/), I can use `{% link_to "/eleventy/" %}` because I know the only content on my site with a slug containing `/eleventy/` is [the page of the Eleventy tag](https://nicolas-hoizey.com/tags/eleventy/), which URL is `/tags/eleventy/`.
 
