@@ -3,10 +3,6 @@
   "version": "0.2.1",
   "description": "A nunjucks tag to link to another internal content in Eleventy",
   "main": ".eleventy.js",
-  "files": [
-    "./.eleventy.js",
-    "./lib/link_to.js"
-  ],
   "scripts": {},
   "repository": {
     "type": "git",
