@@ -1,13 +1,12 @@
 {
   "name": "eleventy-plugin-link_to",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "A nunjucks tag to link to another internal content in Eleventy",
   "main": ".eleventy.js",
   "files": [
     "./"
   ],
-  "scripts": {
-  },
+  "scripts": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/nhoizey/eleventy-plugin-link_to.git"
