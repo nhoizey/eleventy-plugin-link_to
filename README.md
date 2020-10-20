@@ -38,6 +38,8 @@ For example, I can use `{% link_to /eleventy/ %}` because I know the only conten
 
 **⚠ Be carreful, if an article with the title `Eleventy` is added later, this link will break!**
 
+If I use only `eleventy` without any `/`, it will currently find the page with this URL: `/links/2020/03/17/eleventy-s-new-performance-leaderboard/`, which is the only content with `eleventy` in the slug (the `/tags/eleventy/` page's slug is `tag-page`, see below), and slugs are parsed before pathStems and URLs.
+
 # Error messages
 
 ## If you use a slug that is common to multiple contents
