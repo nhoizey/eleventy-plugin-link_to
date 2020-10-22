@@ -1,10 +1,12 @@
 # eleventy-plugin-link_to
 
-A nunjucks tag to link to another internal content in Eleventy
+A Nunjucks tag to link to another internal content in Eleventy with its slug.
 
 # Installation
 
-To install the plugin, install it as a dev dependency in your Eleventy project:
+The plugin is available on npm: <https://www.npmjs.com/package/eleventy-plugin-link_to>
+
+Install it as a dev dependency in your Eleventy project:
 
 ```bash
 npm install eleventy-plugin-link_to --save-dev
