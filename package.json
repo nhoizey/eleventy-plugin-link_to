@@ -1,6 +1,6 @@
 {
   "name": "eleventy-plugin-link_to",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "description": "A nunjucks tag to link to another internal content in Eleventy",
   "main": ".eleventy.js",
   "scripts": {},
