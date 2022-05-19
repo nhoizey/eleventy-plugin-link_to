@@ -1,3 +1,5 @@
+![npm](https://img.shields.io/npm/v/eleventy-plugin-link_to) ![npm](https://img.shields.io/npm/dw/eleventy-plugin-link_to) ![NPM](https://img.shields.io/npm/l/eleventy-plugin-link_to) ![GitHub Repo stars](https://img.shields.io/github/stars/nhoizey/eleventy-plugin-link_to?style=social)
+
 # eleventy-plugin-link_to
 
 A Nunjucks tag to link to another internal content in Eleventy with its slug.
