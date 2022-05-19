@@ -12,10 +12,15 @@ Install it as a dev dependency in your Eleventy project:
 npm install eleventy-plugin-link_to --save-dev
 ```
 
-And add this to your `.eleventy.js` configuration file:
+Then add the plugin in your `.eleventy.js` configuration file and make sure Markdown is parsed with Nunjucks instead of [the default Liquid template engine](https://www.11ty.dev/docs/config/#default-template-engine-for-markdown-files):
 
 ```javascript
-eleventyConfig.addPlugin(require('eleventy-plugin-link_to'));
+module.exports = function (eleventyConfig) {
+  eleventyConfig.addPlugin(require('eleventy-plugin-link_to'));
+  return {
+    markdownTemplateEngine: 'njk',
+  };
+};
 ```
 
 # Usage
@@ -27,6 +32,8 @@ Here's the syntax:
 ```nunjucks
 {% link_to "the-content-slug" %}
 ```
+
+_ℹ️ This is a [Nunjucks custom tag](https://www.11ty.dev/docs/custom-tags/), not an [Eleventy shortcode](https://www.11ty.dev/docs/shortcodes/)._
 
 Let's say you have the following contents:
 
