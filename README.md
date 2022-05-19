@@ -56,7 +56,7 @@ You can use `{% link_to "/notes/2019/03/10/hello" %}` instead.
 
 You can also use `{% link_to "/notes/2019/03/10/hello/" %}`, if you use Eleventy's default permalinks.
 
-## Use only a fragment or a slug/pathStem/URL
+## Use only a fragment of a slug/pathStem/URL
 
 You can also use just a fragment of the content's slug (or pathStem, or URL) if you know that there is no ambiguity with another content.
 
