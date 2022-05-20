@@ -1,4 +1,4 @@
-[![npm](https://img.shields.io/npm/v/eleventy-plugin-link_to)](https://www.npmjs.com/package/eleventy-plugin-link_to) [![npm](https://img.shields.io/npm/dw/eleventy-plugin-link_to)](https://www.npmjs.com/package/eleventy-plugin-link_to) [![NPM](https://img.shields.io/npm/l/eleventy-plugin-link_to)](https://github.com/nhoizey/eleventy-plugin-link_to/blob/main/LICENSE) ![GitHub Repo stars](https://img.shields.io/github/stars/nhoizey/eleventy-plugin-link_to?style=social)
+[![npm](https://img.shields.io/npm/v/eleventy-plugin-link_to)](https://www.npmjs.com/package/eleventy-plugin-link_to) [![npm](https://img.shields.io/npm/dw/eleventy-plugin-link_to)](https://www.npmjs.com/package/eleventy-plugin-link_to) [![NPM](https://img.shields.io/npm/l/eleventy-plugin-link_to)](https://github.com/nhoizey/eleventy-plugin-link_to/blob/main/LICENSE) [![GitHub Repo stars](https://img.shields.io/github/stars/nhoizey/eleventy-plugin-link_to?style=social)](https://github.com/nhoizey/eleventy-plugin-link_to/)
 
 # eleventy-plugin-link_to
 
