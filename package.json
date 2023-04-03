@@ -25,9 +25,9 @@
   },
   "homepage": "https://github.com/nhoizey/eleventy-plugin-link_to#readme",
   "peerDependencies": {
-    "@11ty/eleventy": ">=0.11.0"
+    "@11ty/eleventy": "^2.0.1"
   },
   "dependencies": {
-    "chalk": "^4.1.0"
+    "chalk": "^4.1.2"
   }
 }
