@@ -1,6 +1,9 @@
-[![npm](https://img.shields.io/npm/v/eleventy-plugin-link_to)](https://www.npmjs.com/package/eleventy-plugin-link_to) [![npm](https://img.shields.io/npm/dw/eleventy-plugin-link_to)](https://www.npmjs.com/package/eleventy-plugin-link_to) [![NPM](https://img.shields.io/npm/l/eleventy-plugin-link_to)](https://github.com/nhoizey/eleventy-plugin-link_to/blob/main/LICENSE) [![GitHub Repo stars](https://img.shields.io/github/stars/nhoizey/eleventy-plugin-link_to?style=social)](https://github.com/nhoizey/eleventy-plugin-link_to/)
+# `eleventy-plugin-link_to`
 
-# eleventy-plugin-link_to
+[![npm](https://img.shields.io/npm/v/eleventy-plugin-link_to?logo=npm&style=for-the-badge)](<![npm](https://img.shields.io/npm/v/eleventy-plugin-link_to?logo=npm&style=for-the-badge)>)
+[![npm](https://img.shields.io/npm/dw/eleventy-plugin-link_to?style=for-the-badge&logo=npm)](https://www.npmjs.com/package/eleventy-plugin-link_to)
+[![GitHub stars](https://img.shields.io/github/stars/nhoizey/eleventy-plugin-link_to.svg?style=for-the-badge&logo=github)](https://github.com/nhoizey/eleventy-plugin-link_to/stargazers)
+[![Follow @nhoizey@mamot.fr](https://img.shields.io/mastodon/follow/000262395?domain=https%3A%2F%2Fmamot.fr&style=for-the-badge&logo=mastodon&logoColor=white&color=6364FF)](https://mamot.fr/@nhoizey)
 
 A Nunjucks tag to link to another internal content in Eleventy with its slug.
 
